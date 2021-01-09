@@ -1,6 +1,6 @@
-# Node Template
+# TypeScript Template
 
-Template repo for generic Node.js library with tests &amp; lint
+Template repo for generic TypeScript / Node.js library with tests &amp; lint
 
 ### Install
 
