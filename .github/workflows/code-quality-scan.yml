@@ -1,4 +1,4 @@
-name: "Code quality scan"
+name: Code quality scan
 
 on: [push, pull_request]
 
