@@ -19,6 +19,8 @@
     "@babel/core": "^7.12.17",
     "@babel/preset-env": "^7.12.17",
     "@babel/preset-typescript": "^7.12.17",
+    "@stryker-mutator/core": "^4.4.1",
+    "@stryker-mutator/jest-runner": "^4.4.1",
     "@types/jest": "^26.0.20",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
@@ -37,6 +39,7 @@
     "fix": "eslint . --fix",
     "jest": "jest --verbose --runInBand --passWithNoTests",
     "test": "yarn lint && yarn jest",
+    "test:mutation": "stryker run",
     "test:coverage": "jest --coverage --coverageThreshold='{\"global\":{\"statements\":\"90\", \"functions\":\"90\", \"branches\":\"90\", \"lines\":\"90\"}}'",
     "build": "tsc",
     "prepublishOnly": "yarn build && yarn test"
