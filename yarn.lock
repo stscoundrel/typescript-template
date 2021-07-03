@@ -21,7 +21,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.14.7.tgz#7b047d7a3a89a67d2258dc61f604f098f1bc7e08"
   integrity sha512-nS6dZaISCXJ3+518CWiBfEr//gHyMO02uDxBkXTKZDN5POruCnOZ1N4YBRZDCabwF8nZMWBpRxIicmXtBs+fvw==
 
-"@babel/core@^7.1.0", "@babel/core@^7.14.6", "@babel/core@^7.7.2", "@babel/core@^7.7.5", "@babel/core@~7.14.0":
+"@babel/core@^7.1.0", "@babel/core@^7.14.3", "@babel/core@^7.7.2", "@babel/core@^7.7.5", "@babel/core@~7.14.0":
   version "7.14.6"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.14.6.tgz#e0814ec1a950032ff16c13a2721de39a8416fcab"
   integrity sha512-gJnOEWSqTk96qG5BoIrl5bVtc23DCycmIePPYnamY9RboYdI4nFy5vAQMSl81O5K/W0sLDWfGysnOECC+KUUCA==
@@ -792,7 +792,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/preset-env@^7.14.7":
+"@babel/preset-env@^7.14.4":
   version "7.14.7"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.14.7.tgz#5c70b22d4c2d893b03d8c886a5c17422502b932a"
   integrity sha512-itOGqCKLsSUl0Y+1nSfhbuuOlTs0MJk2Iv7iSH+XT/mR8U1zRLO7NjWlYXB47yhK4J/7j+HYty/EhFZDYKa/VA==
@@ -1204,7 +1204,7 @@
     mutation-testing-report-schema "1.7.1"
     tslib "~2.3.0"
 
-"@stryker-mutator/core@^5.2.1":
+"@stryker-mutator/core@^5.0.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-5.2.1.tgz#d2fa0de9cee8ba7e311fc4ed301fa1b106ecdb4d"
   integrity sha512-MK6mQ8kY7brY6rJFrTOz7ENMOoewSxaipzsdm9iiEFfC3laJSp8+a8mqg8SW7OzN9Iy/n3O/kjZ3lXQ+wz5BUw==
@@ -1254,7 +1254,7 @@
     angular-html-parser "~1.8.0"
     weapon-regex "~0.6.0"
 
-"@stryker-mutator/jest-runner@^5.2.1":
+"@stryker-mutator/jest-runner@^5.0.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-5.2.1.tgz#55e4c16d2864879e5a12e9cc247f3a226baf7561"
   integrity sha512-2mbCJNlY/Uh1SZxtZ3rxpwf5QYcHHCVdTpadCOQtq24Y8Zlat9uqk71OsXESbEoc6tFoaVrGlOylFHzGe/hk4w==
