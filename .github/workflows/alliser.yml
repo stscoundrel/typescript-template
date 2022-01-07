@@ -11,4 +11,4 @@ jobs:
       uses: stscoundrel/alliser-action@v0.5.2
       with:
         extensions: ".ts"
-        folders: "src,tests"
+        folders: "./src,./tests"
