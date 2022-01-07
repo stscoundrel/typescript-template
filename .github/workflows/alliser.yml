@@ -7,8 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Run Alliser
     steps:
-    - name: Alliser action step
-      uses: stscoundrel/alliser-action@v0.5.2
+    - uses: actions/checkout@v2
+    - uses: stscoundrel/alliser-action@v0.5.2
+      name: Alliser action step
       with:
         extensions: ".ts"
         folders: "./src,./tests"
