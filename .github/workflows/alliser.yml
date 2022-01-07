@@ -8,7 +8,7 @@ jobs:
     name: Run Alliser
     steps:
     - name: Alliser action step
-      uses: stscoundrel/alliser-action@v0.5.1
+      uses: stscoundrel/alliser-action@v0.5.2
       with:
         extensions: ".ts"
         folders: "src,tests"
