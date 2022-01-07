@@ -5,14 +5,10 @@ on: [pull_request]
 jobs:
   alliser:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-
+    name: Run Alliser
     steps:
-    - name: Run Alliser with Node.js ${{ matrix.node-version }}
+    - name: Alliser action step
       uses: stscoundrel/alliser-action@v0.5.0
       with:
-        extensions: .ts
-        folders: src,tests
+        extensions: ".ts"
+        folders: "src,tests"
