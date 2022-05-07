@@ -9,6 +9,12 @@
     "sourceMap": true,
     "rootDir": "src",
     "esModuleInterop": true,
+    "noImplicitAny": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
