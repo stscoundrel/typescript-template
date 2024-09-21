@@ -1,10 +1,10 @@
 # TypeScript Template
 
-Template repo for generic TypeScript / Node.js library with tests &amp; lint
+Template repo for generic TypeScript / Node.js library with tests, lint and CI/CD pipelines.
 
 ### Install
 
-`yarn add name-of-the-package`
+`npm install name-of-the-package`
 
 ##### Usage
 
