@@ -1,6 +1,6 @@
 # TypeScript Template
 
-Template repo for generic TypeScript / Node.js library with tests, lint and CI/CD pipelines.
+Template repo for generic TypeScript / Bun / Node.js library with tests, lint and CI/CD pipelines.
 
 ### Install
 
