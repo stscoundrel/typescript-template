@@ -18,7 +18,7 @@
   "devDependencies": {    
     "@biomejs/biome": "1.9.2",
     "@types/bun": "latest",
-    "@types/node": "^20.8.0",
+    "@types/node": "^25.0.3",
     "prettier": "^3.3.3",
     "typescript": "^5.2.2"
   },
