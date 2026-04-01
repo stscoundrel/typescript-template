@@ -20,7 +20,7 @@
     "@types/bun": "latest",
     "@types/node": "^25.0.3",
     "prettier": "^3.3.3",
-    "typescript": "^5.2.2"
+    "typescript": "^6.0.2"
   },
   "scripts": {
     "prettier:fix": "prettier src tests --write",
